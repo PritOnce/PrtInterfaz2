@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="ArchorPane"
+            prefHeight="360.0" prefWidth="340.0"
+            xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.prtinterfaz2.HelloController">
+    <children>
+        <Button fx:id="boton"  layoutX="151.0" layoutY="220.0"
+                mnemonicParsing="false" onAction="#operaciones"
+                text="Operar" prefHeight="25.0" prefWidth="150.0"/>
+        <TextField fx:id="t1" layoutX="152.0" layoutY="62.0" />
+        <TextField fx:id="t2" layoutX="152.0" layoutY="104.0"/>
+        <TextField fx:id="t3" editable="false" layoutX="152.0" layoutY="260.0"/>
+        <Label layoutX="80.0" layoutY="66.0" text="Operando1" />
+        <Label layoutX="80.0" layoutY="108.0" text="Operando2" />
+        <Label layoutX="80.0" layoutY="260.0" text="Resultado" />
+
+   <RadioButton layoutX="150.0" layoutY="180.0" mnemonicParsing="false" text="Suma" fx:id="r1"/>
+   <RadioButton layoutX="150.0" layoutY="140.0" mnemonicParsing="false" text="Division" fx:id="r2"/>
+   <RadioButton layoutX="230.0" layoutY="180.0" mnemonicParsing="false" text="Resta" fx:id="r3"/>
+   <RadioButton layoutX="230.0" layoutY="140.0"  mnemonicParsing="false" text="Multiplicacion" fx:id="r4"/>
+    </children>
+</AnchorPane>
