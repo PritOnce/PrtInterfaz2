@@ -8,7 +8,7 @@
             prefHeight="360.0" prefWidth="340.0"
             xmlns="http://javafx.com/javafx/17.0.2-ea"
             xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.example.prtinterfaz2.HelloController">
+            fx:controller="com.example.prtinterfaz2.ControlCalculadora">
     <children>
         <Button fx:id="boton"  layoutX="151.0" layoutY="220.0"
                 mnemonicParsing="false" onAction="#operaciones"
